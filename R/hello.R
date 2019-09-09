@@ -14,5 +14,5 @@
 #   Test Package:              'Cmd + Shift + T'
 
 hello <- function(name) {
-  print(parse("Hello, world!",name))
+  print(paste("Hello, world!",name))
 }
